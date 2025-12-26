@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan Adlrdard - Front-end Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img class="" id="himg" src="assets/images/logo.svg" alt="company-logo">
+                    <!-- <div class="logo-circle logo-circle-left"></div> -->
+                    <!-- <div class="logo-circle logo-circle-right"></div> -->
+                </div>
+                <nav class="nav" id="navMenu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#recommendations" class="nav-link">Recommendations</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="decorative-circle circle-small circle-yellow"></div>
+                    <h1 class="hero-title">
+                        I'm Rayan Adlrdard<br>
+                        <span class="highlight">Front-end</span> Developer
+                    </h1>
+                    <p class="hero-description">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Et, Volutpat Feugiat
+                        Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.
+                    </p>
+                    <button class="btn btn-primary">HIRE ME</button>
+                    <div class="decorative-circle circle-small circle-green"></div>
+                    <div class="decorative-square"></div>
+                </div>
+                <div class="hero-image">
+                    <div class="decorative-circle circle-medium circle-green-top"></div>
+                    <div class="illustration-wrapper">
+                        <img id="heroimage" src="assets/images/hero.svg" alt="hero-illustration">
+                        <!-- <div class="curved-platform"></div>
+                        <div class="person-illustration">
+                            <div class="person-head"></div>
+                            <div class="person-arm"></div>
+                        </div>
+                        <div class="monitor-wrapper">
+                            <div class="monitor">
+                                <div class="monitor-screen">
+                                    <div class="code-bracket">&lt;/&gt;</div>
+                                    <div class="code-bracket">&lt;/&gt;</div>
+                                </div>
+                                <div class="monitor-stand"></div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="decorative-triangle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-description">
+                Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia
+                Consequat Duis Enim Velit Mollit. Lorem Ipsum
+            </p>
+            <div class="projects-grid" id="projectsGrid"></div>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section class="recommendations" id="recommendations">
+        <div class="container">
+            <h2 class="section-title">Recommendations</h2>
+            <p class="section-description">
+                Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint.
+                Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum
+            </p>
+            <div class="recommendations-slider">
+                <div class="recommendations-track" id="recommendationsTrack"></div>
+            </div>
+            <div class="slider-dots" id="sliderDots"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-form-section">
+                    <h2 class="section-title">Leave ME Your Info</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="input">
+                            <label for="name">Full Name</label>
+                            <input type="text" placeholder="enter your full name" required>
+                        </div>
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="enter your email" required>
+                        </div>
+                        <div class="input">
+                            <label for="subject">Subject</label>
+                            <input type="text" placeholder="enter the subject">
+                        </div>
+                        <div class="input">
+                            <label for="message">Message</label>
+                            <textarea placeholder="Your Message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div class="contact-info-section">
+                    <h2 class="section-title">Contact Information</h2>
+                    <div class="info-group">
+                        <div class="info-icon icon-location">
+                            <img src="assets/icons/icon1.svg" alt="location-icon">
+                        </div>
+                        <div class="info-details">
+                            <div class="info-item">
+                                <span class="info-label">Country:</span>
+                                <span class="info-value">Bangladesh</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">City:</span>
+                                <span class="info-value">Dhaka</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Street:</span>
+                                <span class="info-value">35 Vhatara, Badda</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-group">
+                        <div class="info-icon icon-email">
+                            <img src="assets/icons/icon2.svg" alt="email-icon">
+                        </div>
+                        <div class="info-details">
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">Yourusername@mail.Com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Skype:</span>
+                                <span class="info-value">@Yourusername</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Telegram:</span>
+                                <span class="info-value">@Yourusername</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-group">
+                        <div class="info-icon icon-support">
+                            <img src="assets/icons/icon3.svg" alt="support-icon">
+                        </div>
+                        <div class="info-details">
+                            <div class="info-item">
+                                <span class="info-label">Support Services:</span>
+                                <span class="info-value">15369</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Office:</span>
+                                <span class="info-value">+88 (0) 7(58) 587 235</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Personal:</span>
+                                <span class="info-value">+88 (0) 7(58) 587 235</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <img src="assets/images/company-icon1.svg" alt="company-icon1">
+                </div>
+                <div class="stat-item">
+                    <img src="assets/images/company-icon2.svg" alt="company-icon2">
+                </div>
+                <div class="stat-item">
+                    <img src="assets/images/company-icon3.svg" alt="company-icon3">
+                </div>
+                <div class="stat-item">
+                    <img src="assets/images/company-icon4.svg" alt="company-icon4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <img src="assets/images/logo.svg" alt="company-logo">
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-social">
+
+                        <a href="#" class="social-btn">
+                            <img src="assets/images/rating-on-dorel.svg" alt="rating">
+                            <span class="social-caption">4.5/5 rating on Lorem</span>
+                        </a>
+
+                        <a href="#" class="social-btn">
+                            <img src="assets/images/rating-on-lorem.svg" alt="rating">
+                            <span class="social-caption">4.5/5 rating on Lorem</span>
+                        </a>
+
+                        <a href="#" class="social-btn">
+                            <img src="assets/images/rating-on-lpsum.svg" alt="rating">
+                            <span class="social-caption">4.5/5 rating on Lorem</span>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#recommendations">Recommendations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Portfolio</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#">Backend Development</a></li>
+                        <li><a href="#">Website Design</a></li>
+                        <li><a href="#">Machine Learning</a></li>
+                        <li><a href="#">Problem Solving & DSA</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <img src="assets/images/Facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="assets/images/Instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="social-link">
+                            <img src="assets/images/LinkedIn.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Copyright, All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
